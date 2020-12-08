@@ -2,14 +2,14 @@
 import React, { Component } from 'react';
 
 // Class Based Component
-class NewYorkKnicks extends Component {
+class OrlandoMagic extends Component {
     render() {
         return (
             <div>
-                <h2>New York Knicks</h2>
+                <h2>Orlando Magic</h2>
             </div>
         );
     }
 } 
 
-export default NewYorkKnicks; 
+export default OrlandoMagic; 
