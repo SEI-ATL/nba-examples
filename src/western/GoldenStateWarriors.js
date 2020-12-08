@@ -5,12 +5,12 @@ function GoldenStateWarriors() {
     const steph = {
         team: 'Golden State Warriors',
         number: 30,
-        postiion: 'Point Guard'
+        position: 'Point Guard'
     }
     return (
         <>
             <h2>Golden State Warriors</h2>
-            <StephenCurry position={steph.postiion} number={steph.number} team={steph.team} />
+            <StephenCurry position={steph.position} number={steph.number} team={steph.team} />
         </>
     );
 }
