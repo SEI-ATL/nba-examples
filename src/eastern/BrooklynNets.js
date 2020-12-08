@@ -10,12 +10,12 @@ class BrooklynNets extends Component {
         const kevin = {
             team: 'Brooklyn Nets',
             number:7,
-            postiion: 'Small Forward'
+            position: 'Small Forward'
         }
         return (
             <div>
                 <h2>Brooklyn Nets</h2>
-                <KevinDurant position={kevin.postiion} number={kevin.number} team={kevin.team} />
+                <KevinDurant position={kevin.position} number={kevin.number} team={kevin.team} />
             </div>
         );
     }
