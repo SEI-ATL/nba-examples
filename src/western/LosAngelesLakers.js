@@ -5,12 +5,12 @@ function LosAngelesLakers() {
     const lebron = {
         team: 'Los Angeles Lakers',
         number: 23,
-        postiion: 'Small Forward'
+        position: 'Small Forward'
     }
     return (
         <>
             <h2>Los Angeles Lakers</h2>
-            <LebronJames position={lebron.postiion} number={lebron.number} team={lebron.team} />
+            <LebronJames position={lebron.position} number={lebron.number} team={lebron.team} />
         </>
     );
 }
