@@ -15,7 +15,7 @@ class MiamiHeat extends Component {
         return (
             <div>
                 <h2>Miami Heat</h2>
-                <JimmyButler position={jimmy.poition} team={jimmy.team} number={jimmy.number}/>
+                <JimmyButler position={jimmy.position} team={jimmy.team} number={jimmy.number}/>
             </div>
         );
     }
