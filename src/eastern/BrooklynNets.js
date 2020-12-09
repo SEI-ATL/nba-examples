@@ -9,7 +9,7 @@ class BrooklynNets extends Component {
     render() {
         const kevin = {
             team: 'Brooklyn Nets',
-            number:7,
+            number: 7,
             position: 'Small Forward'
         }
         return (
