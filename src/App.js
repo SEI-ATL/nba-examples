@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import EasternConference from './conferences/EasternConference';
 import WesternConference from './conferences/WesternConference';
@@ -6,6 +5,7 @@ import WesternConference from './conferences/WesternConference';
 function App() {
   return (
     <div className="App">
+        <h1>NBA Teams</h1>
         <EasternConference />
         <WesternConference />
     </div>

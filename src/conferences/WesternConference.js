@@ -17,9 +17,10 @@ import SanAntonioSpurs from '../western/SanAntonioSpurs';
 
 
 // Functional Component
-function EasternConference() {
+function WesternConference() {
     return (
         <div>
+            <h1>Western Conference</h1>
             <DenverNuggets />
             <MinnesotaTimberwolves />
             <OklahomaCityThunder />
@@ -39,4 +40,4 @@ function EasternConference() {
     )
 }
 
-export default EasternConference;
+export default WesternConference;

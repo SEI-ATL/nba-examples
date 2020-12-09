@@ -23,6 +23,7 @@ class EasternConference extends Component {
     render() {
         return (
             <div>
+                <h1>Eastern Conference</h1>
                 <BostonCeltics /> 
                 <BrooklynNets />
                 <NewYorkKnicks />
